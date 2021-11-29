@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    text-decoration: underline;
+    color: grey;
+}
+
+p {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+span {
+    color: red;
+    font-style: italic;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
