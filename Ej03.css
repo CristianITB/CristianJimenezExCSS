@@ -1,0 +1,34 @@
+body{
+    height: 1000px;
+}
+.figure1{
+    width: 10%;
+    height: 10%;
+    border: 1px solid blue;
+}
+.figure2{
+    width: 100%;
+    height: 5%;
+    border: 5px solid black ;
+    margin: 10px
+}
+.figure3{
+    width: 50%;
+    border: 1px solid blue;
+}
+.figure4{
+    width: 50%;
+    border: 1px solid blue;
+}
+.figure5{
+    width: 50%;
+    border: 1px solid blue;
+}
+.figure6{
+    width: 50%;
+    border: 1px solid blue;
+}
+.figure7{
+    width: 50%;
+    border: 1px solid blue;
+}
