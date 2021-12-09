@@ -6,17 +6,48 @@ h2 {
     text-decoration: underline;
     color: grey;
 }
-
+/* no se com fer pq el color sigui degradat*/
 p {
     font-family: sans-serif;
     font-style: italic;
 }
 
-span {
+.Franky{
+    color: lightblue;
+    background-color: green;
+}
+.Avi{
+    color: blue;
+    background-color: lightblue;
+}
+.Tony{
+    color: lightgreen;
+    background-color: red;
+}
+.Boris{
+    background-color: lightgreen;
     color: red;
-    font-style: italic;
 }
 
 ol {
     list-style-type: upper-roman;
+}
+.name3{
+    color: lightgreen;
+    background-color: green;
+}
+.name4{
+    color: blue;
+    background-color: lightblue;
+}
+.name5{
+    color: lightgreen;
+    background-color: red;
+}
+.name6{
+    color: purple;
+    background-color: lightgreen;
+}
+li > a{
+    color: green;
 }

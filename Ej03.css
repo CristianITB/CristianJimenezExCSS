@@ -8,11 +8,12 @@ body{
 }
 .figure2{
     width: 100%;
-    height: 5%;
     border: 5px solid black ;
     margin: 10px;
-    text-indent: 4%;
-    text-justify: auto; 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 .figure3{
     margin: 10px;
@@ -20,19 +21,29 @@ body{
     border: 1px solid orange;
 }
 .figure4{
+    border-radius: 15px;
     width: 50%;
-    border: 1px solid turquoise;
+    height: 10%;
+    border: 4px solid turquoise;
+    border-style: round;
+
 }
 .figure5{
-    width: 50%;
+    padding-left: 2%;
+    width: 100%;
     border: 1px solid black;
 }
 .figure6{
-    width: 50%;
+    width: 98%;
     border: 1px solid black;
+    margin-left: 2%;
 }
 .figure7{
-    margin: 20px;
-    width: 50%;
-    border: 1px solid lightblue;
+    border-radius: 15%;
+    margin: 2% 10% 10% 35%;
+    width: 10%;
+    height: 8%;
+    border: 4px solid lightblue;
+    text-align: left;
+    padding: 3%;
 }
