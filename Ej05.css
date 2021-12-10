@@ -1,0 +1,9 @@
+.subtitulos h2{
+    display: inline-block;
+    width: 48%;
+}
+li{
+    display: inline-block;
+    width: 20%;
+    list-style: none;
+}

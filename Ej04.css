@@ -1,0 +1,28 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primerFloat{
+    border: 1px solid white;
+    background-color: lightgreen;
+    height: 100px;
+    width: 20%;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}
+.segundoFloat{
+    border: 1px solid white;
+    background-color: lightgreen;
+    height: 100px;
+    width: 20%;
+    padding: 10px;
+    float: right;
+}
+.parrafo1{
+    margin-left: 10px;
+}
+div + div{
+    margin-top: 20px;
+    text-justify: auto;
+}
