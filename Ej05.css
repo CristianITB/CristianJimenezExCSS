@@ -1,9 +1,83 @@
+h1{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    margin: 0px;
+    font-size: 2.5em;
+}
+.subtitulos{
+    background-color: grey;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 15%;
+    width: 100%;
+}
 .subtitulos h2{
     display: inline-block;
-    width: 48%;
+    margin: 1px;
+    margin-right: 20%;
+    margin-bottom: 0px;
+    padding: 0px 45px;
+    font-size: 2em;
+}
+ul{
+    background-color: lightgray;
+    margin-top: 0;
 }
 li{
     display: inline-block;
-    width: 20%;
+    width: 23%;
     list-style: none;
+    font-size: 1.2em;
+}
+.articulo1{
+    margin-right: 10px;
+    height: 200px;
+    width: 100%;
+}
+.articulo1 div{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    background-color: lightgray;
+}
+.articulo1 div p, .articulo2 div p{
+    padding: 35%;
+    color: rgba(80, 77, 77, 0.507);
+}
+.articulo2{
+    margin-right: 10px;
+    margin-top: 7px;
+    height: 200px;
+    width: 100%;
+}
+.articulo2 p{
+    float: left;
+    width: 35%;
+    padding-right: 5px;
+
+}
+.articulo2 div{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: lightgray;
+}
+footer{
+    background-color: lightgray;
+    margin-top: 40px;
+    margin-right: 20%;
+    height: 50px;
+    width: 98%;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
