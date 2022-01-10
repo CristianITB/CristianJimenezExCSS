@@ -1,3 +1,25 @@
 *{
-    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgTitulo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+hr{
+    background-color: #6E6048;
+}
+.menu ul li{
+    text-decoration: none;
+    list-style: none;
+    list-style: none;
+    font-size: 1em;
+    padding: 0 20px;
+}
+.menu ul{
+    justify-content: space-between;
+    display: flex;    
+    flex-direction: row;
+    flex: auto;
 }
