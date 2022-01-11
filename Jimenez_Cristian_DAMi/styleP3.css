@@ -1,25 +1,140 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*--------Header-------*/
+header hr{
+    background-color: #6E6048;
+}
 .imgTitulo{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
 }
-hr{
-    background-color: #6E6048;
+
+/*-------Menu------ */
+.menu ul{
+    display: flex;    
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between;
 }
 .menu ul li{
-    text-decoration: none;
-    list-style: none;
     list-style: none;
     font-size: 1em;
     padding: 0 20px;
 }
-.menu ul{
-    justify-content: space-between;
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    text-align: center;
+    padding: 2%;
+}
+
+/* ------Lateral Izquierdo-------*/
+.lateralIzq{
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 10%;
+    float: left;
+    width: 15%;
+}
+.lateralIzq img{
+    padding: 5px;
+}
+.lateralIzq p:nth-child(2){
+    color: grey;
+    text-align: justify;
+}
+.lateralIzq p:nth-child(4){
+    margin: 0;
+    padding: 1%;
+    background-color: #7ABA96;
+}
+.lateralIzq div{
+    padding: 1%;
+    background-color: lightgrey;
+}
+.lateralIzq div p:nth-child(3){
+    color: grey;
+    text-align: justify;
+}
+/*------Primera seccion-------*/
+section hr{
+    background-color: #7ABA96;
+}
+.primeraSeccion article:nth-child(2){
+    padding-left: 0%;
+    margin: 0;
+}
+.primeraSeccion{
+    margin-right: 5%;
     display: flex;    
     flex-direction: row;
     flex: auto;
+    justify-content: space-between;
+}
+.primeraSeccion img{
+    max-height: 300px;
+    max-width: 300px;
+}
+.primeraSeccion article{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.primeraSeccion article p:nth-child(4){
+    margin: 0%;
+}
+.primeraSeccion article p:nth-child(6){
+    text-align: justify;
+}
+/*------Segunda seccion-------*/
+.segundaSeccion article:nth-child(2){
+    padding-left: 0%;
+    margin: 0;
+}
+.segundaSeccion{
+    margin-right: 5%;
+    display: flex;    
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between;
+}
+.segundaSeccion img{
+    max-height: 300px;
+    max-width: 300px;
+}
+.segundaSeccion article{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.segundaSeccion article p:nth-child(4){
+    margin: 0%;
+}
+.segundaSeccion article p:nth-child(6){
+    text-align: justify;
+}
+
+/*----------Footer-------*/
+footer{
+    margin-top: 0px;
+    background-color: black;
+}
+footer ul{
+    display: flex;    
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between;
+}
+footer ul li{
+    list-style: none;
+    font-size: 1em;
+    padding: 0 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #9e917c;
 }
