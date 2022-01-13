@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../estilosCSS/styleFormulario.css" />
+		<title>Formulario Delicias Kitchen</title>
+	</head>
+	<body>
+		<img class="imgTitulo" alt="Imagen del título" src="../imagenes/Logo-Delicias.png"/>
+		<header>
+			<nav class="menu">
+				<ul>
+					<li><a target="blank" href="https://google.com">INICIO</a></li>
+					<li><a target="blank" href="https://es.wikipedia.org/wiki/Mi_(nota)">SOBRE MÍ</a></li>
+					<li><a target="blank" href="https://cocina-online.com/recetas-de-pastas-1/">RECETAS</a></li>
+					<li><a target="blank" href="https://ca.wikipedia.org/wiki/Contacto">CONTACTO</a></li>
+					<li><a target="blank" href="https://www.twitch.tv/">OTRAS COSAS</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+            <form action="Ej06.html" method="get">
+                <!-- Tabindex y pattern????? -->
+                <!-- Darse de alta en la web, añadir comentario o nueva receta. 4 tipos diferentes -->
+                
+                <!-- Darse de alta -->
+                <br>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" name="fname" id="fname" placeholder="Escribe tu nombre" required ><br><br>
+                <label for="lname">Apellidos</label><br>
+                <input type="text" name="lname" id="lname" placeholder="Escribe tu nombre" required ><br><br>
+
+                <label for="password">Contraseña:</label><br>
+                <input type="password" name="password" placeholder="Escribe tu contraseña" required><br><br>
+
+                <label for="sexo">Sexo:</label><br>
+                <input type="radio" name="sexo">Masculino<br>
+                <input type="radio" name="sexo">Femenino<br><br>
+
+                <label for="sexo">Idiomas:</label><br>
+                <input type="checkbox" name="idiomas">Català<br>
+                <input type="checkbox" name="idiomas">Español<br>
+                <input type="checkbox" name="idiomas">English<br>
+                <input type="checkbox" name="idiomas">Otros: (especificar)<br>
+                <input type="text" name="idiomas" placeholder="Italiano, Francés, Ruso..."><br><br>
+                
+                <label for="paises">País:</label><br>
+                <select name="Paises" id="">
+                    <option value="?">España</option>
+                    <option value="?">Francia</option>
+                    <option value="?">Andorra</option>
+                    <option value="?">Portugal</option>
+                </select><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" placeholder="Escribe tu email" required><br><br>
+                <!-- Darse de alta -->
+
+                <!-- Cosas relativas al tiempo -->
+                <label for="fecha">Fecha actual:</label><br>
+                <input type="date" name="fecha"><br><br>
+                
+                <label for="hora">Hora actual:</label><br>
+                <input type="time" name="hora"><br><br>
+                <!-- Cosas relativas al tiempo -->
+
+                <!-- Recetas -->
+                <label for="range">Dominio de HTML:</label><br>
+                <input type="range" name="" id=""><br><br>
+
+                <label for="descarga">Progreso de descarga: </label><br>
+                <progress id="descarga" value="69" min="0" max="100"></progress><br>
+
+                <p>Puntuación:
+                    <meter value="75" min="0" max="100" low="49" high="80" optimum="100"></meter>
+                </p>
+
+                <label for="Supermercado">Lista compra:</label><br>
+                <input type="text" id="probandodatalist" list="lista" placeholder="Alimentos">
+                <datalist id="lista">
+                    <option value="Tomates"></option>
+                    <option value="Patatas"></option>
+                    <option value="Cebollas"></option>
+                </datalist><br><br>
+                
+                <label for="archivo">Adjuntar archivos:</label><br>
+                <input type="file" name="archivo"><br><br>
+
+                <!-- Recetas y comentarios -->
+
+                <label for="comentarios">Comentarios/Sugerencias:</label><br>
+                <textarea rows="5" cols="40" placeholder="Comentanos tus sugerencias para mejorar nuestros servicios!"></textarea>
+
+                <br><br>
+                <a href= "Ej06.html">
+                <input type="button" name="f5" value="Recargar página"><br><br>
+                </a>
+                <input type="submit" value="Enviar" aria-selected="true"> || 
+                <input type="reset" value="Reestablecer parámetros">
+                <!-- Recetas y comentarios -->
+
+            </form>
+        </main>
+        <footer>
+            <nav>
+				<ul>
+					<li><a target="blank" href="https://facebook.com">FACEBOOK</a></li>
+					<li><a target="blank" href="https://twitter.com">TWITTER</a></li>
+					<li><a target="blank" href="https://instagram.com">INSTAGRAM</a></li>
+					<li><a target="blank" href="https://pinterest.com">PINTEREST</a></li>
+					<li><a target="blank" href="https://gmail.com">EMAIL</a></li>
+					<li><a target="blank" href="https://wikipedia.org">RSS</a></li>
+				</ul>
+			</nav>
+        </footer>
+    </body>
+</html>
+

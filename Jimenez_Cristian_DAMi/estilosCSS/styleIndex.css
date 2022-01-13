@@ -3,33 +3,30 @@
 }
 main{
     text-align: center;
-    padding: 2%;
+    padding: 2%
 }
-hr{
-    border: none;
-    height: 1.5px;
-    background: #7ABA96;
+body{
+    margin: 0;
 }
 
+
 /*--------Header-------*/
-header hr{
-    border: none;
-    height: 2px;
-    background: #8A8070;
+header{
+    position: sticky;
+    top: 0;
+    border-top: 2px solid #8A8070;
+    border-bottom: 2px solid #8A8070;
+    margin-left: 7%;
+    margin-right: 7%;
+    z-index: 100;
 }
 /* background: linear-gradient(to left, blue, red); */
 .imgTitulo{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
+    margin: 15px auto 10px auto;
 }
 
 /*-------Menu------ */
-.menu{
-    position: sticky;
-    top: 0px
-}
 .menu ul{
     font-weight: bold;
     display: flex;    
@@ -56,30 +53,50 @@ header hr{
 /* ------Lateral Izquierdo-------*/
 .lateralIzq{
     text-align: center;
-    margin-right: 5%;
+    margin-right: 3%;
     margin-left: 10%;
     float: left;
-    width: 15%;
+    width: 18%;
 }
 .lateralIzq img{
     padding: 2%;
 }
-.lateralIzq p:nth-child(2){
-    color: grey;
-    text-align: justify;
-}
-.lateralIzq p:nth-child(4){
-    margin: 0;
-    padding: 1%;
-    background-color: #7ABA96;
+.lateralIzq p:first-child{
+    font-size: 1.2em;
 }
 .lateralIzq div{
     padding: 2% 2% 1% 2%;
     background-color: lightgrey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .lateralIzq div p:nth-child(3){
     color: grey;
     text-align: justify;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 0.95em;
+}
+.lateralIzq p.hola{
+    text-align: justify;
+    color: grey;
+    font-size: 0.95em;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.lateralIzq p.apuntame{
+    margin: 0;
+    padding: 2%;
+    background-color: #7ABA96;
+}
+.lateralIzq p.apuntame a{
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+.lateralIzq p.apuntame a:hover{
+    color: lightgray;
+    font-size: 1.05em;
 }
 
 /*------Primera seccion-------*/
@@ -94,9 +111,10 @@ header hr{
     flex: auto;
     justify-content: space-between;
     width: 60%;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .primeraSeccion img{
+    border-radius: 20px;
     max-height: 375px;
     max-width: 375px;
     transition: all .5s;
@@ -110,9 +128,9 @@ header hr{
     padding-left: 5%;
 }
 .primeraSeccion article p:nth-child(3){
-    border-top: solid #7ABA96;
-    border-bottom: solid #7ABA96;
-    margin: 0%;
+    border-top: 2px solid #7ABA96;
+    border-bottom: 2px solid #7ABA96;
+    margin: 0;
     font-size: 0.75em;
 }
 .primeraSeccion article p:nth-child(4){
@@ -131,9 +149,10 @@ header hr{
     flex: auto;
     justify-content: space-between;
     width: 60%;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .segundaSeccion img{
+    border-radius: 20px;
     max-height: 375px;
     max-width: 375px;
     transition: all .5s;
@@ -147,15 +166,16 @@ header hr{
     padding-left: 5%;
 }
 .segundaSeccion article p:nth-child(3){
-    border-top: solid #7ABA96;
-    border-bottom: solid #7ABA96;
-    margin: 0;
+    border-top: 2px solid #7ABA96;
+    border-bottom: 2px solid #7ABA96;
+    margin-top: 15px;
     font-size: 0.75em;
 }
 .segundaSeccion article p:nth-child(4){
     text-align: justify;
     font-size: 0.85em;
 }
+
 
 /*----------Footer-------*/
 footer{
@@ -182,9 +202,3 @@ footer ul li a:hover{
     color: #7ABA96;
     font-size: 1.1em;
 }
-.segundaSeccion article p:nth-child(2){
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
