@@ -1,75 +1,46 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-main{
-    text-align: center;
-    padding: 2%
-}
 body{
-    margin: 0;
+    padding-top: 0%;
+    /* background: linear-gradient(to right, rgb(224, 144, 114), rgb(153, 209, 204)); */
+
+
 }
-
-
-/*--------Header-------*/
 header{
-    position: sticky;
-    top: 0;
-    border-top: 2px solid #8A8070;
-    border-bottom: 2px solid #8A8070;
-    margin-left: 7%;
-    margin-right: 7%;
-    background-color: white;
-}
-.imgTitulo{
-    display: block;
-    margin: 15px auto 10px auto;
-}
+    /*background: linear-gradient(to right, rgb(233, 127, 88), rgb(119, 230, 220));*/
+    background: linear-gradient(to right, white, rgb(174, 221, 217));
 
-/*-------Menu------ */
-.menu ul{
-    font-weight: bold;
-    display: flex;    
-    flex-flow: row wrap;
-    flex-grow: 5;
-    justify-content: center;
 }
-.menu ul li{
-    list-style: none;
-    font-size: 1em;
-    padding: 0 20px;
-}
-.menu ul li a{
-    text-decoration: none;
-    color: black;
-    transition: all .5s;
-}
-.menu ul li a:hover{
-    color: #7ABA96;
-    font-size: 1.1em;
-}
-
-/*----------Footer-------*/
-footer{
-    padding: 1%;
-    background-color: black;
-}
-footer ul{
-    font-weight: bold;
+.informacionPersonal, .informacionExtra, .receta, .explicacionReceta, .comentarios, .enviar{
     display: flex;    
     flex-flow: row wrap;
     justify-content: center;
 }
-footer ul li{
-    list-style: none;
-    font-size: 1em;
-    padding: 0 25px;
+
+.informacionPersonal div, .informacionExtra div, .receta div, .explicacionReceta div, .comentarios div, .enviar div{
+    padding: 15px;
 }
-footer ul li a{
-    text-decoration: none;
-    color: #9e917c;
-    transition: all .5s;
+.informacionPersonal div label, .informacionExtra div label, .receta div label, 
+.explicacionReceta div label, .comentarios div label, .enviar div label{
+    font-weight: bold;
 }
-footer ul li a:hover{
-    color: #7ABA96;
-    font-size: 1.1em;
+.informacionPersonal div input, .informacionExtra div input, .receta div input, 
+.explicacionReceta div input, .comentarios div input, .enviar div input{
+    background: linear-gradient(to right, white, rgb(174, 221, 217));
+}
+textarea{
+    background: linear-gradient(to right, white, rgb(174, 221, 217));
+}
+hr{
+    border: none;
+    height: 3.5px;
+    background: linear-gradient(to right, rgb(212, 96, 53), rgb(45, 161, 152));
+    margin-right: 20%;
+    margin-left: 20%;
+}
+p{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 1.5em;
+}
+.enviar div input{
+    background: white;
 }
