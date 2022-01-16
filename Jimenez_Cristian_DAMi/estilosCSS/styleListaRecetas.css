@@ -1,9 +1,18 @@
-/* ------Lateral Izquierdo-------*/
+body{
+    background-image: url(../imagenes/fondoFrutasYVerduras.jpg);
+}
+.imgTitulo{
+    background-color: lightyellow;
+}
+header, header ul, header ul li, header ul li a{
+    background: lightyellow;
+}
 .lateralIzq{
+    background-color: lightyellow;
     text-align: center;
     margin-right: 0%;
     margin-left: 12%;
-    float: left;
+    float: right;
     width: 18%;
 }
 .lateralIzq img{
@@ -47,8 +56,8 @@
     font-size: 1.05em;
 }
 
-/*------Primera seccion-------*/
 .primeraSeccion{
+    background-color: lightyellow;
     margin-right: 5%;
     display: flex;    
     flex-direction: row;
@@ -95,80 +104,4 @@
     color: #7ABA96;
     font-size: 1.1em;
     text-decoration: underline #8A8070;
-}
-
-/*------Segunda seccion-------*/
-.segundaSeccion{
-    margin-right: 5%;
-    display: flex;    
-    flex-direction: row;
-    flex: auto;
-    justify-content: space-between;
-    width: 60%;
-    font-size: 1.1em;
-}
-.segundaSeccion img{
-    border-radius: 20px;
-    max-height: 375px;
-    max-width: 375px;
-    transition: all .5s;
-}
-.segundaSeccion img:hover{
-    filter: brightness(125%);
-    transform: scale(1.2);
-}
-.segundaSeccion article{
-    padding-right: 10%;
-    padding-left: 10%;
-}
-.segundaSeccion article:nth-child(2){
-    padding-left: 0%;
-    margin: 0;
-}
-.segundaSeccion article p:nth-child(3){
-    border-top: 2px solid #7ABA96;
-    border-bottom: 2px solid #7ABA96;
-    margin-top: 15px;
-    font-size: 0.75em;
-}
-.segundaSeccion article p:nth-child(4){
-    text-align: justify;
-    font-size: 0.85em;
-}
-.segundaSeccion article p a{
-    color: black;
-    text-decoration: none;
-    transition: all .5s;
-}
-.segundaSeccion article p a:hover{
-    color: #7ABA96;
-    font-size: 1.1em;
-    text-decoration: underline #8A8070;
-}
-
-
-/*----------Footer-------*/
-footer{
-    padding: 1%;
-    background-color: black;
-}
-footer ul{
-    font-weight: bold;
-    display: flex;    
-    flex-flow: row wrap;
-    justify-content: center;
-}
-footer ul li{
-    list-style: none;
-    font-size: 1em;
-    padding: 0 25px;
-}
-footer ul li a{
-    text-decoration: none;
-    color: #9e917c;
-    transition: all .5s;
-}
-footer ul li a:hover{
-    color: #7ABA96;
-    font-size: 1.1em;
 }

@@ -29,7 +29,6 @@ header{
     font-weight: bold;
     display: flex;    
     flex-flow: row wrap;
-    flex-grow: 5;
     justify-content: center;
 }
 .menu ul li{

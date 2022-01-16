@@ -1,14 +1,14 @@
 body{
     padding-top: 0%;
-    /* background: linear-gradient(to right, rgb(224, 144, 114), rgb(153, 209, 204)); */
-
-
+    background: linear-gradient(to right, rgb(226, 158, 133), rgb(188, 233, 229)); 
+}
+.imgTitulo{
+    filter: brightness(50%);
 }
 header{
-    /*background: linear-gradient(to right, rgb(233, 127, 88), rgb(119, 230, 220));*/
-    background: linear-gradient(to right, white, rgb(174, 221, 217));
-
+    background: linear-gradient(to right, rgb(252, 224, 215), rgb(204, 250, 246));
 }
+
 .informacionPersonal, .informacionExtra, .receta, .explicacionReceta, .comentarios, .enviar{
     display: flex;    
     flex-flow: row wrap;
@@ -18,16 +18,19 @@ header{
 .informacionPersonal div, .informacionExtra div, .receta div, .explicacionReceta div, .comentarios div, .enviar div{
     padding: 15px;
 }
+
 .informacionPersonal div label, .informacionExtra div label, .receta div label, 
 .explicacionReceta div label, .comentarios div label, .enviar div label{
     font-weight: bold;
 }
+
 .informacionPersonal div input, .informacionExtra div input, .receta div input, 
 .explicacionReceta div input, .comentarios div input, .enviar div input{
-    background: linear-gradient(to right, white, rgb(174, 221, 217));
+    background: linear-gradient(to right, white, rgb(238, 227, 223));
 }
+
 textarea{
-    background: linear-gradient(to right, white, rgb(174, 221, 217));
+    background: linear-gradient(to right, white, rgb(238, 227, 223));
 }
 hr{
     border: none;
@@ -40,6 +43,7 @@ p{
     margin-top: 3%;
     margin-bottom: 3%;
     font-size: 1.5em;
+    text-decoration: underline black;
 }
 .enviar div input{
     background: white;
