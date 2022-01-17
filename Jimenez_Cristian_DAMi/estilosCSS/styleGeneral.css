@@ -9,7 +9,7 @@ body{
     margin: 0;
 }
 
-/*--------Header-------*/
+/*------ Header -------*/
 header{
     position: sticky;
     top: 0;
@@ -24,7 +24,7 @@ header{
     margin: 15px auto 10px auto;
 }
 
-/*-------Menu------ */
+/*------- Menu ----- */
 .menu ul{
     font-weight: bold;
     display: flex;    
@@ -46,7 +46,7 @@ header{
     font-size: 1.1em;
 }
 
-/*----------Footer-------*/
+/*------- Footer ------*/
 footer{
     padding: 1%;
     background-color: black;

@@ -8,6 +8,8 @@ main{
     margin-left: 20%;
     margin-right: 20%;
 }
+
+/* ---- Título e imágen inicial ---- */
 .imgPasta{
     border-radius: 20px;
     max-height: 80%;
@@ -25,6 +27,8 @@ main{
 h2{
     text-decoration: underline #7ABA96;
 }
+
+/* ----- Explicación receta ----- */
 .sobreReceta, .otrosIngredientes, .material{
     display: flex;    
     flex-flow: row wrap;
@@ -36,6 +40,8 @@ h2{
 .vitamix{
     color: #7ABA96;
 }
+
+/* ----- Preparación receta ---- */
 .preparacionReceta{
     border: 2px solid black;
     text-align: left;
@@ -58,6 +64,8 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+
+/* ----- Modificación del footer y paginación ---- */
 footer ul, footer ul li, footer ul li a{
     background: black;
 }

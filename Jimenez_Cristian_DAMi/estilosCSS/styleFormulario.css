@@ -9,6 +9,7 @@ header{
     background: linear-gradient(to right, rgb(252, 224, 215), rgb(204, 250, 246));
 }
 
+/* ----- Contenido del formulario ----- */
 .informacionPersonal, .informacionExtra, .receta, .explicacionReceta, .comentarios, .enviar{
     display: flex;    
     flex-flow: row wrap;
