@@ -7,101 +7,124 @@ body{
 header, header ul, header ul li, header ul li a{
     background: lightyellow;
 }
-.lateralIzq{
-    background-color: lightyellow;
-    text-align: center;
-    margin-right: 0%;
-    margin-left: 12%;
-    float: right;
-    width: 18%;
+.cabecera{
+    background-color:  rgb(238, 238, 211);
+    margin: 0% 30% 0% 10%;
+    padding: 1% 3%;
+    text-align: left;
+    border: 2px solid black;
+    border-bottom: none;
 }
-.lateralIzq img{
-    padding: 2%;
+.cabecera p:first-child{
+    font-weight: bold;
+    font-size: 2em;
 }
-.lateralIzq div{
-    padding: 2% 2% 1% 2%;
-    background-color: lightgrey;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.lateralIzq p:first-child{
-    font-size: 1.2em;
-}
-.lateralIzq div p:nth-child(3){
-    color: grey;
+
+section{
+    margin: 0% 30% 0% 10%;
+    background-color: rgb(238, 238, 211);
+    display: flex;
+    flex-wrap: wrap;
     text-align: justify;
-    padding-right: 5%;
-    padding-left: 5%;
-    font-size: 0.95em;
+    border: 2px solid black;
+    border-top: none;
 }
-.lateralIzq p.hola{
-    text-align: justify;
-    color: grey;
-    font-size: 0.95em;
-    padding-right: 5%;
-    padding-left: 5%;
+section img{
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
 }
-.lateralIzq p.apuntame{
-    margin: 0;
-    padding: 2%;
-    background-color: #7ABA96;
+section article{
+    border-top: 1px solid black;
+    margin: 1rem;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 3%;
 }
-.lateralIzq p.apuntame a{
+.tituloReceta{
+    margin-top: 0%;
+    font-weight: bold;
+    font-size: 1.3em;
     text-decoration: none;
     color: black;
     transition: all .5s;
 }
-.lateralIzq p.apuntame a:hover{
-    color: lightgray;
-    font-size: 1.05em;
+.tituloReceta:hover{
+    font-size: 1.4em;
+    color: rgb(228, 72, 72);
 }
-
-.primeraSeccion{
-    background-color: lightyellow;
-    margin-right: 5%;
-    display: flex;    
-    flex-direction: row;
-    flex: auto;
+section article div:nth-child(2){
+    margin: 0% 12%;
+    padding: 0.5% 2%;
+    background-color: rgb(224, 224, 163);
+}
+.icon{
+    max-width: 4%;
+    max-height: 4%;
+}
+.paginacion{
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 16%;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 211);
+    padding: 5px 0px;
+}
+.paginacion a{
+    font-weight: bold;
+    display: inline;
     justify-content: space-between;
-    width: 60%;
-    font-size: 1.1em;
-}
-.primeraSeccion img{
-    border-radius: 20px;
-    max-height: 375px;
-    max-width: 375px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 211);
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
     transition: all .5s;
 }
-.primeraSeccion img:hover{
-    filter: brightness(125%);
-    transform: scale(1.2);
+.paginacion a:hover{
+    background-color: rgb(201, 201, 115);
 }
-.primeraSeccion article{
-    padding-right: 10%;
-    padding-left: 10%;
+.lateralDerecho{
+    background-color:  rgb(218, 218, 73);
+    float: right;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    color: rgb(25, 150, 25);
+    padding-left: 10px;
+    text-align: left;
+    position: sticky;
+    top: 10%;
+    margin-right: 5%;
 }
-.primeraSeccion article:nth-child(2){
-    padding-left: 0%;
-    margin: 0;
+.lateralDerecho ul{
+    padding: 0%;
+    border: 0%;
 }
-.primeraSeccion article p:nth-child(3){
-    border-top: 2px solid #7ABA96;
-    border-bottom: 2px solid #7ABA96;
-    margin: 0;
-    font-size: 0.75em;
+.lateralDerecho li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
 }
-.primeraSeccion article p:nth-child(4){
-    text-align: justify;
-    font-size: 0.85em;
+.lateralDerecho li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 1.1em;
+    transition: all .5s;
+}
+.lateralDerecho li a:hover{
+    font-size: 1.2em;
+    color: rgb(42, 197, 42);
 
 }
-.primeraSeccion article p a{
-    color: black;
-    text-decoration: none;
+.lateralDerecho img{
+    float: left;
+    margin-right: 4%;
+    width: 15px;
+    height: 15px;
     transition: all .5s;
 }
-.primeraSeccion article p a:hover{
-    color: #7ABA96;
-    font-size: 1.1em;
-    text-decoration: underline #8A8070;
+.lateralDerecho img:hover{
+    transform: scale(1.2);
 }
