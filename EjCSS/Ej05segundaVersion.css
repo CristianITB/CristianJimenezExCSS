@@ -5,7 +5,6 @@ h1{
     width: 100%;
     padding-top: 5px;
     padding-left: 5px;
-    display: inline-block;
     margin: 0px;
     font-size: 2.5em;
 }
@@ -17,7 +16,7 @@ h1{
     width: 100%;
 }
 .subtitulos h2{
-    display: inline-block;
+    display: inline;
     margin: 1px;
     margin-right: 20%;
     margin-bottom: 0px;
@@ -26,7 +25,7 @@ h1{
 }
 ul{
     background-color: lightgray;
-    margin-top: 0;
+    margin: 0;
 }
 li{
     display: inline-block;
@@ -35,10 +34,12 @@ li{
     font-size: 1.2em;
 }
 .articulo1{
-    margin-right: 10px;
-    height: 200px;
-    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
 }
+
 .articulo1 div{
     float: left;
     width: 200px;
@@ -46,22 +47,15 @@ li{
     margin-right: 10px;
     background-color: lightgray;
 }
+.articulo1 p{
+    width: 80%;
+    margin-top: 0%;
+}
 .articulo1 div p, .articulo2 div p{
-    padding: 35%;
+    padding: 38%;
     color: rgba(80, 77, 77, 0.507);
 }
-.articulo2{
-    margin-right: 10px;
-    margin-top: 7px;
-    height: 200px;
-    width: 100%;
-}
-.articulo2 p{
-    float: left;
-    width: 35%;
-    padding-right: 5px;
 
-}
 .articulo2 div{
     float: left;
     width: 200px;
@@ -70,10 +64,14 @@ li{
     margin-top: 10px;
     background-color: lightgray;
 }
+.articulo2 p{
+    display: inline-block;
+    width: 40%;
+}
 footer{
+    clear: both;
     background-color: lightgray;
-    margin-top: 40px;
-    margin-right: 20%;
+    margin-top: 8%;
     height: 50px;
     width: 98%;
     padding-top: 20px;
